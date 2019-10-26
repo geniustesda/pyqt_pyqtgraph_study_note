@@ -39,7 +39,7 @@ class ComboBoxDemo(QWidget):
         :return: None
         """
         self.label.setText(self.cb.currentText())
-        self.label.adjustSize()
+        self.label.adjustSize()  # 自动调整大小,这里看不到具体作用
 
         for count in range(self.cb.count()):
             print(time.time(), count, self.cb.itemText(count))
