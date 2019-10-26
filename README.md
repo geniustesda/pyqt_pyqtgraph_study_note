@@ -1,0 +1,2 @@
+# pyqt_pyqtgraph_study_note
+学习pyqt和pyqtgraph的各种demo
